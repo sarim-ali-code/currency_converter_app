@@ -150,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
         try {
             amount = Double.parseDouble(amountText);
         } catch (NumberFormatException e) {
-            Toast.makeText(this, "Invalid amount entered.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Invalid amount.", Toast.LENGTH_SHORT).show();
             return;
         }
 
